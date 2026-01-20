@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ImageEnhan - AI Photo Enhancer | Featured on AI Ranking</title>
+    <meta
+      name="description"
+      content="ImageEnhan is an AI photo enhancer that restores clarity, boosts detail, and improves lighting. We are featured on AI Ranking and support fast, secure, and reliable image processing."
+    />
+    <meta name="robots" content="index,follow" />
+    <meta name="author" content="ImageEnhan" />
+    <meta name="keywords" content="AI photo enhancer, image upscaler, restore photos, AI Ranking badge" />
+    <style>
+      :root {
+        color-scheme: light;
+        font-family: "Space Grotesk", "Inter", system-ui, -apple-system, sans-serif;
+        color: #0f172a;
+        background: #f8fafc;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(180deg, #f8fafc 0%, #ffffff 45%, #eef2ff 100%);
+      }
+
+      header {
+        padding: 32px 24px 16px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 980px;
+        margin: 0 auto;
+      }
+
+      header nav a {
+        margin-left: 16px;
+        color: #334155;
+        text-decoration: none;
+        font-size: 14px;
+      }
+
+      main {
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 24px;
+        display: grid;
+        gap: 32px;
+      }
+
+      .hero {
+        background: #ffffff;
+        border: 1px solid #e2e8f0;
+        border-radius: 24px;
+        padding: 32px;
+        box-shadow: 0 16px 32px rgba(15, 23, 42, 0.08);
+      }
+
+      .hero h1 {
+        margin: 0 0 12px;
+        font-size: 36px;
+      }
+
+      .hero p {
+        margin: 0 0 20px;
+        color: #475569;
+        line-height: 1.6;
+      }
+
+      .pill-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+      }
+
+      .pill {
+        padding: 8px 14px;
+        border-radius: 999px;
+        background: #f1f5f9;
+        color: #0f172a;
+        font-size: 13px;
+        font-weight: 600;
+      }
+
+      section {
+        background: #ffffff;
+        border: 1px solid #e2e8f0;
+        border-radius: 20px;
+        padding: 24px;
+      }
+
+      section h2 {
+        margin-top: 0;
+      }
+
+      .grid {
+        display: grid;
+        gap: 16px;
+      }
+
+      .grid.two {
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      }
+
+      .badge-row {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        flex-wrap: wrap;
+        margin-top: 12px;
+      }
+
+      .label {
+        font-size: 12px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: #64748b;
+        font-weight: 700;
+        width: 80px;
+      }
+
+      footer {
+        padding: 32px 24px 48px;
+        text-align: center;
+        color: #64748b;
+        font-size: 13px;
+      }
+    </style>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "ImageEnhan",
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "Web",
+        "description": "ImageEnhan is an AI photo enhancer that restores detail, improves lighting, and upscales photos in seconds.",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "ImageEnhan"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <header>
+      <strong>ImageEnhan</strong>
+      <nav>
+        <a href="#features">Features</a>
+        <a href="#workflow">Workflow</a>
+        <a href="#badge">Badge</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <h1>AI Photo Enhancer that delivers crisp, natural detail</h1>
+        <p>
+          ImageEnhan brings old photos back to life using a fast, privacy-safe AI pipeline. Improve
+          lighting, remove artifacts, and upscale to high resolution with just one upload.
+        </p>
+        <div class="pill-grid">
+          <span class="pill">4x Upscale</span>
+          <span class="pill">Portrait Restore</span>
+          <span class="pill">Batch Processing</span>
+          <span class="pill">Noise Reduction</span>
+          <span class="pill">HDR Tone Balance</span>
+        </div>
+      </section>
+
+      <section id="features">
+        <h2>Key features</h2>
+        <div class="grid two">
+          <div>
+            <h3>Clarity Boost</h3>
+            <p>Sharpen edges while keeping skin tones soft and realistic.</p>
+          </div>
+          <div>
+            <h3>Low Light Recovery</h3>
+            <p>Recover details from dark images without crushing highlights.</p>
+          </div>
+          <div>
+            <h3>Artifact Cleanup</h3>
+            <p>Remove JPEG artifacts, banding, and color noise automatically.</p>
+          </div>
+          <div>
+            <h3>Instant Preview</h3>
+            <p>See before/after results side-by-side before exporting.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="workflow">
+        <h2>Workflow</h2>
+        <ol>
+          <li>Upload a portrait, product photo, or historical image.</li>
+          <li>Select enhancement preset (Portrait, Product, Restoration).</li>
+          <li>AI processes the image in seconds with smart restoration.</li>
+          <li>Download in PNG or JPG with flexible sizing options.</li>
+        </ol>
+      </section>
+
+      <section id="badge">
+        <h2>Featured on AI Ranking</h2>
+        <p>
+          ImageEnhan is featured on AI Ranking for its consistent output quality and fast delivery.
+          Use the badge below to link back with a dofollow link.
+        </p>
+        <div class="badge-row">
+          <span class="label">Light</span>
+          <a href="https://airanking.ai" target="_blank" style="text-decoration:none;">
+            <span
+              style="display:inline-flex;align-items:center;gap:10px;padding:9px 14px;border-radius:999px;font:600 13px/1.2 'Space Grotesk','Inter',system-ui,sans-serif;letter-spacing:0.02em;color:#0f172a;background:#ffffff;border:1px solid #e2e8f0;box-shadow:0 1px 2px rgba(15,23,42,0.08);"
+            >
+              <img
+                src="https://airanking.ai/logo.png"
+                alt="AI Ranking"
+                style="width:18px;height:18px;border-radius:6px;"
+              />
+              Featured on AI Ranking
+            </span>
+          </a>
+        </div>
+        <div class="badge-row">
+          <span class="label">Dark</span>
+          <a href="https://airanking.ai" target="_blank" style="text-decoration:none;">
+            <span
+              style="display:inline-flex;align-items:center;gap:10px;padding:9px 14px;border-radius:999px;font:600 13px/1.2 'Space Grotesk','Inter',system-ui,sans-serif;letter-spacing:0.02em;color:#f8fafc;background:#0f172a;border:1px solid #1e293b;box-shadow:0 1px 2px rgba(2,6,23,0.45);"
+            >
+              <img
+                src="https://airanking.ai/logo.png"
+                alt="AI Ranking"
+                style="width:18px;height:18px;border-radius:6px;"
+              />
+              Featured on AI Ranking
+            </span>
+          </a>
+        </div>
+      </section>
+
+      <section>
+        <h2>Use cases</h2>
+        <ul>
+          <li>Restore family photos, scanned prints, and vintage portraits.</li>
+          <li>Enhance product images for ecommerce listings.</li>
+          <li>Upscale marketing banners and social media creatives.</li>
+          <li>Clean up AI generated art before publishing.</li>
+        </ul>
+      </section>
+
+      <section id="faq">
+        <h2>FAQ</h2>
+        <div class="grid">
+          <div>
+            <h3>Is it free?</h3>
+            <p>Yes. The free plan includes fast processing with daily limits.</p>
+          </div>
+          <div>
+            <h3>Do you keep the images?</h3>
+            <p>No. Images are deleted after processing to protect privacy.</p>
+          </div>
+          <div>
+            <h3>What file types are supported?</h3>
+            <p>JPG, PNG, and WEBP up to 20MB.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>ImageEnhan - AI photo enhancer featured on AI Ranking.</p>
+    </footer>
+  </body>
+</html>
